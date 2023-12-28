@@ -1,6 +1,6 @@
 import { View, Text, Pressable, Image, StyleSheet, Platform } from 'react-native'
 
-import MealDetails from '../components/MealDetails'
+import MealDetails from '../MealDetails'
 
 import { useNavigation } from '@react-navigation/native'
 
