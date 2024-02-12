@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "mealsapp",
+    "name": "My Recipe Book",
     "slug": "mealsapp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,16 +16,28 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.masetic.myrecipebook"
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.masetic.myrecipebook"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d1aac297-56f2-4a54-af37-6e7149c6516c"
+      }
+    },
+    "plugins": [
+      "expo-build-properties"
+    ]
   }
 }
